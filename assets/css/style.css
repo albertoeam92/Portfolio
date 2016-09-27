@@ -1,0 +1,32 @@
+/*css*/
+* {
+	text-align: center;
+}
+
+body{
+	font-size: 20px;
+	background-color: #ececec;
+}
+header {
+	background: #5ba;
+	color: white;
+	width: 235px;
+	height: 85px;
+	padding: 20px;
+	
+}
+button {
+	
+}
+.mainbody {
+	background-color: white;
+
+}
+
+.sidebar {
+	background-color: white;
+}
+footer {
+	background-color: #666666;
+	color: lightgrey;
+}
