@@ -15,18 +15,25 @@ header {
 	padding: 20px;
 	
 }
+
 button {
 	
 }
+
+.sideicon {
+	width: 60px;
+	height: 60px;
+}
 .mainbody {
-	background-color: white;
+	background-color: blue;
 
 }
 
 .sidebar {
-	background-color: white;
+	background-color: green;
 }
 footer {
+	width: 100%
 	background-color: #666666;
 	color: lightgrey;
 }
