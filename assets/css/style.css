@@ -1,39 +1,32 @@
 /*css*/
-* {
-	text-align: center;
+
+/*navbar css*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-body{
-	font-size: 20px;
-	background-color: #ececec;
-}
-header {
-	background: #5ba;
-	color: white;
-	width: 235px;
-	height: 85px;
-	padding: 20px;
-	
-}
-
-button {
-	
-}
-
-.sideicon {
-	width: 60px;
-	height: 60px;
-}
-.mainbody {
-	background-color: blue;
+li {
+    float: right;
 
 }
 
-.sidebar {
-	background-color: green;
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-footer {
-	width: 100%
-	background-color: #666666;
-	color: lightgrey;
+
+li a:hover {
+    text-decoration: underline;
+    background-color: #4aaaa5;
+    color: white;
+
 }
+
+/*Edn navbar css*/
