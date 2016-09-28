@@ -1,17 +1,32 @@
 /*css*/
 
+
+#wrapper {
+	width: 960px;
+
+}
+
 /*header css*/
 
-h1 {
-
-	background-color: #4aaaa5;
-	color: white;
-	width: 225px;
-	height: 60px;
-	padding: 10px;
+header {
+	width: 100%;
+	height: 90px;
 	
 }
 
+#toplogo {
+	float: left;
+	width:250px;
+	height:90px;
+	margin-left: 100px;
+	background: #4aaaa5;
+
+}
+
+#toplogo h1 {
+	color: white;
+	text-align: center;
+}
 /*navbar css*/
 
 ul {
@@ -19,11 +34,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    float: left;
+    
 }
 
 li {
-    float: left;
+    float: right;
+    margin-top: 20px;
 
 }
 
@@ -43,9 +59,90 @@ li a:hover {
 
 }
 
-/*Mainbody css*/
+/*main section css */
 
-#wrapper {
-	background-image: url("assets/images/bgimg.jpg")
+.mainsection {
+	
+	width: 100%;
+	background-color: grey;
+
 }
 
+#mainbody {
+	float: left;
+	width: 540px;
+	border: 1px solid grey;
+	margin-left: 100px;
+
+	
+
+}
+#mainbody h2 {
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-bottom: 30px;
+	color: #4aaaa5;
+	border-bottom: 2px solid lightgray;
+
+}
+
+#mainbody a img {
+	padding: 20px;
+
+}
+
+#profimg {
+	
+	width: 220px;
+	height: 210px;
+
+}
+
+
+/*sidebar css*/
+
+#sidebar {
+	background-color: white;
+	width: 270px;
+	float: right;
+	border: 1px dotted black;
+
+
+}
+
+#sidebar h3 {
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-bottom: 30px;
+	color: #4aaaa5;
+	border-bottom: 2px solid lightgray;
+
+}
+#sidebar a img {
+	width: 60px;
+	height: 60px;
+	padding-left: 20px;
+	
+}
+
+/*footer css*/
+
+footer {
+	clear: both;
+	width: 100%;
+	height: 100px;
+	border-top: 10px solid #4aaaa5;
+	background-color: grey;
+	text-align: center;
+	
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+footer a:hover {
+	text-decoration: underline;
+
+}
