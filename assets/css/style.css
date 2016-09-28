@@ -1,5 +1,17 @@
 /*css*/
 
+/*header css*/
+
+h1 {
+
+	background-color: #4aaaa5;
+	color: white;
+	width: 225px;
+	height: 60px;
+	padding: 10px;
+	
+}
+
 /*navbar css*/
 
 ul {
@@ -7,10 +19,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    float: left;
 }
 
 li {
-    float: right;
+    float: left;
 
 }
 
@@ -20,6 +33,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-right: 1px solid lightgray;
 }
 
 li a:hover {
@@ -29,4 +43,9 @@ li a:hover {
 
 }
 
-/*Edn navbar css*/
+/*Mainbody css*/
+
+#wrapper {
+	background-image: url("assets/images/bgimg.jpg")
+}
+
