@@ -1,60 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Alberto's</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>Alberto's</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-  
-  <header>
-  	
-  	<h1>Alberto Alvarez</h1>
 
-  </header>
+<section id="wrapper">
 
-  <section class="navbar">
-    <ul>
-    	<li><a href="index.html">About</a></li>
-    	<li><a href="portfolio.html">Portfolio</a></li>
-    	<li><a href="contact.html">Contact</a></li>
-    </ul>
-  </section>
-  
-  <section id="wrapper">
+    <header>
     
-    <section class="mainbody">
-      
-      <h3 id="bodyheader"><b>Contact</b></h3>
+      <section id="toplogo">
+        <h1>Alberto Alvarez</h1>
+      </section>
 
-      <form class="inputs">
+       <section class="navbar">
+          <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html">About</a></li>
+          </ul>
+       </section>
+
+
+    </header>
+  
+  
+    
+    <section class="mainsection">  
+      
+      <section id="mainbody">
+
+        <h2><b>Contact</b></h2>
+
+        <form class="inputs">
         
-        Name:<br>
-        <input type="text" name="name"><br>
-        E-mail:<br>
-        <input type="text" name="email"><br>
-        Message:<br>
-        <input type="text" name="message"><br>
+          Name:<br>
+          <input type="text" name="name" placeholder="Name..."><br>
+          E-mail:<br>
+          <input type="text" name="email" placeholder="E-mail..."><br>
+          Message:<br>
+          <textarea maxlength="100" ></textarea>
       
-      </form>
+        </form>
+
+      </section>
       
+      <section id="sidebar">
+
+        <h3>Connect with me</h3>
+        <a href=""><img src="assets/images/github.ico"></a>
+        <a href=""><img src="assets/images/linkedin.ico"></a>
+        <a href=""><img src="assets/images/stackoverflow.ico"></a>
       
+      </section>
+
     </section>
-  
-    <section class="sidebar">
-
-      <h3>Connect with me</h3>
-  	  <a href=""><img class="sideicon" src="assets/images/github.ico"></a>
-      <a href=""><img class="sideicon" src="assets/images/linkedin.ico"></a>
-      <a href=""><img class="sideicon" src="assets/images/stackoverflow.ico"></a>
-    </section>
-
-  </section>
-    
-
 
   <footer>
-  	&#169
+    <p>&#169Copyright <a href="index.html">Alberto Alvarez</a></p>
   </footer>
+
+</section>
+    
 
 </body>
 </html>
