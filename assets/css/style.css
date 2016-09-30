@@ -137,6 +137,22 @@ textarea {
 
 	width: 100%;
 	height: 200px;
+
+}
+
+/*portfolio css*/
+
+.portfolio {
+	border: 2px solid orange;
+	height: 20px;
+}
+
+.portfolioimg h3 {
+	background-color: #4aaaa5;
+	border: 1px solid white;
+	text-align: center;
+	padding: 10px;
+
 }
 
 
